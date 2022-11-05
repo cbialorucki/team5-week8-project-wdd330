@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Week 8 Team Activity</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+
+  <body>
+    <h1>Week 8 Team Activity</h1>
+    <main>
+      <div class="listbox">
+        <table id="shiplist">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Length</th>
+              <th>Crew</th>
+            </tr>
+          </thead>
+
+          <tbody></tbody>
+        </table>
+
+        <div class="pagenav">
+            <a id="prev" href="#">&lt;-Prev</a> <a id="next" href="#">Next -&gt;</a>
+        </div>
+        
+      </div>
+      <div id="detailsbox">
+        <dl>
+          <dt>Name:</dt>
+          <dd id="nameDesc"></dd>
+          <dt>Model:</dt>
+          <dd id="modelDesc"></dd>
+          <dt>Class:</dt>
+          <dd id="classDesc"></dd>
+          <dt>Movies:</dt>
+          <dd id="moviesDesc"></dd>
+        </dl>
+      </div>
+    </main>
+    <footer>
+        <p>Made possible with <a href="https://swapi.dev/" title="Star Wars API">SWAPI</a>.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
